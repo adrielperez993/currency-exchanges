@@ -11,9 +11,11 @@ import { CurrencyExchange } from '../../models/currency-exchange';
 export class CurrencyExchangesComponent implements OnInit {
 
   currency =  '';
+  imgPath = '../../../assets/flag-img/1x1/';
+  imgExt = '.svg';
 
   constructor(
-    protected _currencyexchangeService: CurrencyExchangesService
+    public _currencyexchangeService: CurrencyExchangesService
   ) { }
 
   ngOnInit() {
