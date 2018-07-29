@@ -1,0 +1,15 @@
+.currency-list {
+  min-width: 500px;
+  max-width: 768px;
+}
+
+.currency-full-width {
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .currency-list {
+    min-width: 300px;
+    max-width: 500px;
+  }
+}
